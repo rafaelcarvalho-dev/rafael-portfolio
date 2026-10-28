@@ -128,10 +128,24 @@ section {
   padding-top: var(--altura-header);
 }
 
-/* altera o menu para menu hamburguer */
+/* altera o layout do cabecalho */
 
-@media (max-width: 720px) {
-  
+@media (max-width: 690px) {
+  .cabecalho {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--espaco-4);
+    padding: var(--espaco-2);
+  }
+
+  .menu {
+    gap: clamp(0.8rem, -1.7143rem + 12.5714vw, 3rem);
+  }
+
+  main {
+    padding-top: 7.4rem;
+  }
 }
 
 /* config botao geral */
@@ -222,8 +236,9 @@ section {
 
 .imagem-capa img {
   width: 100%;
+  height: auto;
   margin-bottom: var(--espaco-5);
-  border-radius: var(--raio);
+  border-radius: var(--raio-card);
   object-fit: cover;
 }
 
@@ -357,4 +372,5 @@ section {
 
 .copyright {
   text-align: center;
+  padding: var(--espaco-1);
 }
