@@ -6,6 +6,10 @@ I'm a Systems Analysis and Development (ADS) student focused on fullstack develo
 
 Built with semantic HTML and CSS only.
 
+## Live site
+
+[rafael-portfolio-sooty-seven.vercel.app](https://rafael-portfolio-sooty-seven.vercel.app/)
+
 ## Sections
 
 - **Home** — short introduction and call-to-action buttons
@@ -17,17 +21,17 @@ Built with semantic HTML and CSS only.
 
 | Project | Description |
 | --- | --- |
-| [BMI Calculator](https://github.com/rafaelcarvalho-dev/imc-calculator) | Calculates a personalized BMI — HTML, CSS and JavaScript |
+| [SQL Exercises](https://github.com/rafaelcarvalho-dev/sql-exercises) | 52 MySQL exercises in 7 lists: keys, relationships, DDL, SELECT, UPDATE and DELETE |
 | [This portfolio](https://github.com/rafaelcarvalho-dev/rafael-portfolio) | Responsive portfolio with semantic HTML and CSS variables |
-| [Codeport Help Center](https://github.com/rafaelcarvalho-dev/codeport-help-center) | Landing page for a fictional API tool's help center — HTML and CSS |
+| [Codeport Help Center](https://github.com/rafaelcarvalho-dev/codeport-help-center) | Landing page for a fictional API tool's help center — HTML and CSS ([live demo](https://rafaelcarvalho-dev.github.io/codeport-help-center/)) |
 
 ## Highlights
 
 - Semantic HTML (`header`, `main`, `section`, `nav`, `address`, `footer`)
 - CSS custom properties (variables) for colors, fonts, spacing and radii
 - Responsive layout with Flexbox, CSS Grid (`auto-fit` / `minmax`) and media queries
-- Accessibility basics: `aria-label` on navigation and links, empty `alt` on decorative images, `aria-hidden` on background elements
-- `meta description` for SEO
+- Accessibility basics: `aria-label` on navigation and links, empty `alt` on decorative images, `aria-hidden` on background elements, visible `:focus-visible` outline
+- `meta description` for SEO and Open Graph tags for link previews
 - Optimized `.webp` images and SVG icons
 
 ## Running locally
@@ -57,6 +61,7 @@ rafael-portfolio/
 - HTML5
 - CSS3 (Flexbox, Grid, custom properties, media queries)
 - [Poppins](https://fonts.google.com/specimen/Poppins) via Google Fonts
+- Deployed on [Vercel](https://vercel.com/)
 
 > The website content is in Brazilian Portuguese.
 
